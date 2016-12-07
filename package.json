@@ -36,9 +36,15 @@
     "express": "^4.14.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "body-parser": "~1.15.2",
+    "debug": "~2.2.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "request": "^2.78.0"
   },
   "devDependencies": {
-    "concurrently": "^3.1.0"
+    "concurrently": "^3.1.0",
+    "hbs": "~2.3.1"
   }
 }
