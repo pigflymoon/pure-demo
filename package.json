@@ -46,6 +46,7 @@
   "devDependencies": {
     "concurrently": "^3.1.0",
     "hbs": "~2.3.1",
-    "css-loader": "^0.23.0"
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0"
   }
 }
