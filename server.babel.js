@@ -6,6 +6,8 @@ import hb from 'hbs';
 
 import grid from './routes/grid';
 import blog from './routes/blog';
+import email from './routes/email';
+import gallery from './routes/gallery';
 
 const app = express();
 
@@ -20,6 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/grid', grid);
 app.use('/blog', blog);
+app.use('/email',email);
+app.use('/gallery',gallery);
 
 module.exports = app;
 

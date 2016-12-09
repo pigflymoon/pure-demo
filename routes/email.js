@@ -4,7 +4,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('blog', {title: 'Express'});
+    res.render('email', {title: 'Express'});
     // return <h1 className={styles.header}>Hello world!</h1>;
 });
 
