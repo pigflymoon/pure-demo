@@ -8,6 +8,9 @@ import grid from './routes/grid';
 import blog from './routes/blog';
 import email from './routes/email';
 import gallery from './routes/gallery';
+import landing from './routes/landing';
+import table from './routes/table';
+import sidemenu from './routes/side';
 
 const app = express();
 
@@ -24,6 +27,9 @@ app.use('/grid', grid);
 app.use('/blog', blog);
 app.use('/email',email);
 app.use('/gallery',gallery);
+app.use('/landing',landing);
+app.use('/table',table);
+app.use('/side',sidemenu);
 
 module.exports = app;
 
